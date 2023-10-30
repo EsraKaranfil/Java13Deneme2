@@ -1,0 +1,20 @@
+package com.bilgeadam.lesson001;
+
+/**
+ * iki tane string değişkenimiz olsun isim ve soyisim daha sonra birde yaş için
+ * en sonunda bunların çıktısını şu şelilde istiyorum mustafa öztürk - 35
+ */
+
+public class Question2 {
+	public static void main(String[] args) {
+
+		String isim = "Mustafa";
+		String soyisim = "Öztürk";
+		int yas = 35;
+		System.out.print(" " + isim + " " + soyisim + " - " + yas);
+		/**
+		 * \n alt satıra geçer "" ile yazılı
+		 * \t tab kadar boşluk koyar "" ile yazılır
+		 */
+	}
+}
